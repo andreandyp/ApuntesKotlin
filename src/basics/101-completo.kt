@@ -3,7 +3,7 @@ package basics
 fun main() {
     // Var para variables
     var cadena = "Hola"
-    cadena = "Hola Mundo"
+    //cadena = "Hola Mundo"
     println(cadena)
 
     // Val para valores
