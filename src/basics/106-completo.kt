@@ -19,8 +19,7 @@ fun main() {
 
     // ¿Qué pasa si queremos saber el tipo de una variable/valor?
     // Utilizamos la palabra reservada "is"
-    var variable: Any = 17
-    // Prueba a cambiar el tipo de dato
+    var variable: Any = "17.0" // Prueba a cambiar el tipo de dato
     when(variable) {
         is Int -> println("Es un entero")
         is Double -> println("Es un double")

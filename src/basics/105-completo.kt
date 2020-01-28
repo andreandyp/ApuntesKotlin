@@ -28,7 +28,7 @@ fun main() {
     // Operador null coalescing: si el objeto existe, accede a la propiedad indicada
     // Podemos utilizar el operador Elvis para imprimir un valor alternativo cuando es nulo
     // Descomenta la línea de abajo para ver al Elvis en acción
-    //perro = null
+    perro = null
     println(perro?.nombre ?: "No hay perro")
 }
 
