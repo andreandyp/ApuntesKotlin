@@ -15,12 +15,10 @@ Temario:
    - Mutables e inmutables - `108-completo.kt`
    - `for`, rangos, `until`, `downTo` y `step` - `109-completo.kt`
 2. Funciones (paquete `functions`)
-   - Declaración - `201-completo.kt`
+   - Declaración, *one-liners* con `=` - `201-completo.kt`
    - Valores predefinidos, parámetros con nombre - `202-completo.kt`
-   - Funciones de una sola línea con `=>` - `203-completo.kt`
-   - Lambdas - `204-completo.kt`
-   - Enviar y recibir funciones - `205-completo.kt`
-   - `map`, `filter`, `forEach` - `206-completo.kt`
+   - Lambdas - `203-completo.kt`
+   - Lambas en acción con `forEach`, `map`, `filter` - `204-completo.kt`
 3. Clases (paquete `clases`)
    - Propiedades, `get` y `set` - `301-completo.kt`
    - Métodos - `302-completo.kt`
