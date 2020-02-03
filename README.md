@@ -20,19 +20,27 @@ Temario:
    - Lambdas - `203-completo.kt`
    - Lambas en acción con `forEach`, `map`, `filter` - `204-completo.kt`
 3. Clases (paquete `clases`)
-   - Propiedades, `get` y `set` - `301-completo.kt`
-   - Métodos - `302-completo.kt`
-   - Access modifiers - `303-completo.kt`
-   - Constructores - `304-completo.kt`
-   - `data class` - `305-completo.kt`
-   - `init` - `306-completo.kt`
-   - Herencia - `307-completo.kt`
-   - Clases abstractas, interfaces - `308-completo.kt`
-   - enums, `sealed` - `309-completo.kt`
-   - `object`, lazy init - `310-completo.kt`
-   - `companion object` y statics - `311-completo.kt`
+    - `301-completo.kt`
+       - Propiedades, `get` y `set`
+       - Métodos
+       - Access modifiers
+       - Constructores
+       - `init`
+    - `302-completo.kt`
+       - `data class`
+       - enums
+    - `303-completo.kt`
+       - Clases abstractas, interfaces
+    - `304-completo.kt`
+       - Herencia
+    - `305-completo.kt`
+        - `sealed class`
+    - `306-completo.kt`
+       - `object`, lazy init, `lateinit`
+    - `307-completo.kt`
+       - funciones de extensión
 4. Temas intermedios (paquete `intermediate`)
-   - Funciones de extensión - `401-completo.kt`
+   - `companion object` y statics - `401-completo.kt`
    - Destructuring - `402-completo.kt`
    - Constantes - `403-completo.kt`
    - Pares - `404-completo.kt`
