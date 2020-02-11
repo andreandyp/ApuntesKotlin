@@ -40,16 +40,14 @@ Temario:
     - `307-completo.kt`
        - funciones de extensión
 4. Temas intermedios (paquete `intermediate`)
-   - `companion object` y statics - `401-completo.kt`
+   - `companion object` y statics, constantes - `401-completo.kt`
    - Destructuring - `402-completo.kt`
-   - Constantes - `403-completo.kt`
-   - Pares - `404-completo.kt`
-   - `let`, `also` y `apply` - `405-completo.kt`
-   - `with` y `run` - `406-completo.kt`
-   - Operador `*` - `407-completo.kt`
+   - Pares - `403-completo.kt`
+   - Scoping functions 1: `also` y `apply` - `404-completo.kt`
+   - Scoping functions 2: `run` y `let`, `with` - `405-completo.kt`
 5. Temas avanzados (paquete `advanced`)
    - High order functions - `501-completo.kt`
-   - Inlines, infix - `502-completo.kt`
+   - Inlines, infix, vararg - `502-completo.kt`
    - Labeled `return` y labeled `this` - `503-completo.kt`
    - Generics - `504-completo.kt`
    - Anotaciones - `505-completo.kt`
