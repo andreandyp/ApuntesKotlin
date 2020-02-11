@@ -34,6 +34,7 @@ abstract class TransporteRuta : Transporte {
 interface TransporteLibre : Transporte {
     fun calcularTarifa(): Double
 }
+//Clases Anónimas
 
 interface TrackListener {
     fun onStartRide(start: String)

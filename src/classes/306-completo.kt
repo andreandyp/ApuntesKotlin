@@ -8,7 +8,7 @@ class Taxi(override val pintura: Pintura) : TransporteLibre {
     private var esDeNoche = false
     private var aumentos = 0 // Las veces que el taxi aumenta la tarifa (cada 250 m o 45 s)
     var seguimiento: TrackListener? = null
-    var usuarioActual: Usuario? = null
+    private var usuarioActual: Usuario? = null
 
     // Si tenemos alguna propiedad variable que no podemos inicializar en este momento
     // Pero sabemos que va a ser inicializada en algún momento, utilizamos lateinit antes de var
