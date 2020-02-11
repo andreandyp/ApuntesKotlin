@@ -8,6 +8,7 @@ interface Transporte {
     val pintura: Pintura
     fun abordar(usuario: Usuario)
     fun descender(usuario: Usuario)
+
 }
 
 // Así definimos una clase abstracta

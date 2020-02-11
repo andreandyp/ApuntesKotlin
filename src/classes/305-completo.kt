@@ -9,6 +9,7 @@ sealed class MetrobusBajo(
     // Con protected, sólo nuestras subclases pueden ver este atributo
     protected var listaUsuarios = mutableListOf<Any>()
     override var tarifa: Double = 6.0
+    var number : Double = 0.0
 
     override fun abordar(usuario: Usuario) {
         println("Cobrar $$tarifa")
