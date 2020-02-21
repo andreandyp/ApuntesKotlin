@@ -6,9 +6,9 @@ package classes
 * */
 fun main() {
     val pasajeros = listOf<Usuario>(
-        Usuario("André", 100.0),
-        Usuario("Itzel", 100.0),
-        Usuario("Arheli", 100.0)
+        Usuario("André", 100.0,"hombre",null),
+        Usuario("Itzel", 100.0,"mujer",null),
+        Usuario("Arheli", 100.0,"mujer",null)
     )
     val estaciones =
         listOf<Estacion>(
@@ -24,7 +24,7 @@ fun main() {
 
     println(zocalo == zocalo2)
 
-    val arheli = Usuario("Arheli", 0.0)
+    val arheli = Usuario("Arheli", 0.0,"femenino",null)
     arheli.saldo = 125.0
     println(arheli.saldo)
 
@@ -54,7 +54,7 @@ fun main() {
     println(saludo + tipoTrole)
 
     val taxi = Taxi(Pintura.ROSA)
-    val andy = Usuario("Andy", 0.0)
+    val andy = Usuario("Andy", 0.0,"masculino",null)
     taxi.abordar(andy)
     taxi.seguimiento = object : TrackListener {
         override fun onStartRide(start: String) {

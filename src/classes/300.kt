@@ -2,7 +2,7 @@ package classes
 
 fun main(){
     val taxi = Taxi2(Pintura.ROSA)
-    val itz = Usuario("Itzel",800)
+    val itz = Usuario("Itzel",800.0,"femenino",null)
     taxi.abordar(itz)
     taxi.seguimiento = object : TrackListener{
         override fun onStartRide(start: String) {
