@@ -4,7 +4,7 @@ fun main(){
     //print("hola mundo")
 
     val taxi = Taxi2(Pintura.ROSA)
-    val usu = Usuario("Arheli",12)
+    val usu = Usuario("Arheli",12.0)
     taxi.abordar(usu)
     taxi.seguimiento = object : TrackListener{
         override fun onStartRide(start: String) {

@@ -3,7 +3,7 @@ package classes
 // Así se declara una data class:
 // data class Nombre(val/var campo: Tipo)
 data class Estacion(val nombre: String, var actual: Boolean = false)
-    data class Usuario(val nombre: String, var dinero: Double = 0.0) {
+data class Usuario(val nombre: String, var dinero: Double = 0.0, var boleto:Int?) {
     // Si queremos añadir métodos o añadir getters/setters a la clase
     // Lo podemos hacer en el cuerpo de la clase
     var saldo: Double = 0.0
