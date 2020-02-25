@@ -46,10 +46,9 @@ Temario:
    - Scoping functions 1: `also` y `apply` - `404-completo.kt`
    - Scoping functions 2: `run` y `let`, `with` - `405-completo.kt`
 5. Temas avanzados (paquete `advanced`)
-   - High order functions - `501-completo.kt`
+   - Sobrecarga de operadores - `501-completo.kt`
    - Inlines, infix, vararg - `502-completo.kt`
    - Labeled `return` y labeled `this` - `503-completo.kt`
    - Generics - `504-completo.kt`
    - Anotaciones - `505-completo.kt`
    - Reflexión - `506-completo.kt`
-   - Sobrecarga de operadores - `507-completo.kt`
